@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{DA18F8B9-D600-43A3-8A73-42568E2B3FF7}</ProjectGuid>
-    <RootNamespace>Project45</RootNamespace>
+    <ProjectGuid>{63B48E6F-7244-4F4A-B8B8-A0E8A232F378}</ProjectGuid>
+    <RootNamespace>BankSystem</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,14 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BankSystem.cpp" />
-    <ClCompile Include="FileOperations.cpp" />
+    <ClCompile Include="..\..\Project45\Project45\BankSystem.cpp" />
+    <ClCompile Include="..\..\Project45\Project45\FileOperations.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="example.txt" />
+    <ClInclude Include="..\..\Project45\Project45\Header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
